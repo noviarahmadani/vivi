@@ -1,0 +1,119 @@
+{% extends 'front/base.html' %}
+{% load static  %}
+
+{% block content %}
+<div class="wrapper">
+    <div class="parallax filter-black">
+        <div class="parallax-image">
+            <img src="{% static 'front/img/bg100.jpg' %}" alt="..." />
+        </div>
+        <div class="small-info">
+            <h1>RESEP MAKANAN ALA RUMAHAN</h1>
+        </div>
+    </div>
+
+    <div class="section section-description">
+           <div class="container">
+               <h2 class="section-title">Description</h2>
+
+               <div class="row">
+                    <div class="col-md-6">
+                       <h5>Resep</h5>
+                       <p>
+                        Resep bertujuan untuk mengingatkan pembuat makanan atau minuman untuk mengetahui apa saja dan berapa takar bahan yang di masukan untuk menjadikan rasa yang sama seperti awal dia buat
+                    dan memberikan hasil yang konsisiten karena adanya resep juga menambah wawasan kita untuk mempelajari masakan baru</p>
+
+                   </div>
+                   <div class="col-md-4">
+                        <div id="description-carousel" class="carousel fade" data-ride="carousel">
+                              <!-- Wrapper for slides -->
+                              <div class="carousel-inner">
+                                <div class="item active">
+                                  <img src="{% static 'front/img/bg1.jpg' %}" alt="..." />
+                                </div>
+                                <div class="item">
+                                  <img src="{% static 'front/img/bg2.jpg' %}" alt="..." />
+                                </div>
+                                <div class="item">
+                                  <img src="{% static 'front/img/bg4.jpg' %}" alt="..." />
+                                </div>
+                              </div>
+
+                              <ol class="carousel-indicators">
+                                <li data-target="#description-carousel" data-slide-to="0" class="active"></li>
+                                <li data-target="#description-carousel" data-slide-to="1"></li>
+                                <li data-target="#description-carousel" data-slide-to="2"></li>
+                              </ol>
+                        </div>
+                   </div>
+                </div>
+
+                <div class="space-50"></div>
+                <hr>
+                <div class="space-50"></div>
+
+                <div>
+                    <div class="col-md-4">
+                        <div id="description-carousel" class="carousel fade" data-ride="carousel">
+                              <!-- Wrapper for slides -->
+                              <div class="carousel-inner">
+                                <div class="item active">
+                                  <img src="{% static 'front/img/bg6.jpg' %}" alt="..." />
+                                </div>
+                                <div class="item">
+                                  <img src="{% static 'front/img/bg2.jpg' %}" alt="..." />
+                                </div>
+                              </div>
+
+                              <ol class="carousel-indicators">
+                                <li data-target="#description-carousel" data-slide-to="0" class="active"></li>
+                                <li data-target="#description-carousel" data-slide-to="1"></li>
+                                <li data-target="#description-carousel" data-slide-to="2"></li>
+                              </ol>
+                        </div>
+                   </div>
+                   </div>
+                   <div class="col-md-6">
+                       <h5>Food korean ala rumahan</h5>
+                       <p>
+                        Makanan jalanan di Korea Selatan secara tradisional telah dilihat sebagai bagian dari budaya populer di Korea. Secara historis, 
+                        makanan jalanan terutama termasuk makanan seperti Eomuk, Bungeo-ppang dan Tteok-bokki.</p>
+
+                   </div>
+               </div>
+           </div>
+    </div><!-- section -->
+    
+
+
+     <div class="section section-gray section-clients">
+         <div class="container">
+            <div class="row">
+                 <div class="col-md-3">
+                     <a href="" class="btn btn-round btn-fill btn-social btn-facebook">
+                         <i class="fa fa-facebook-square"></i> Facebook
+                     </a>
+                 </div>
+                  <div class="col-md-3">
+                     <a href="" class="btn btn-round btn-fill btn-social btn-twitter">
+                         <i class="fa fa-twitter"></i> Twitter
+                     </a>
+                 </div>
+                  <div class="col-md-3">
+                     <a href="" class="btn btn-round btn-fill btn-social btn-google">
+                         <i class="fa fa-google-plus-square"></i> Google+
+                     </a>
+                 </div>
+                 <div class="col-md-3">
+                     <a href="" class="btn btn-round btn-fill btn-social btn-pinterest">
+                         <i class="fa fa-pinterest"></i> Pinterest
+                     </a>
+                 </div>
+            </div>
+         </div>
+     </div>
+
+
+</div> <!-- wrapper -->
+
+{% endblock content %}
